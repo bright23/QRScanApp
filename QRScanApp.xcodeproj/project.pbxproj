@@ -11,6 +11,11 @@
 		C392355826CBC81B003AD94D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C392355726CBC81B003AD94D /* ContentView.swift */; };
 		C392355A26CBC81C003AD94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C392355926CBC81C003AD94D /* Assets.xcassets */; };
 		C392355D26CBC81C003AD94D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C392355C26CBC81C003AD94D /* Preview Assets.xcassets */; };
+		C392356826CBCFE4003AD94D /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C392356726CBCFE4003AD94D /* ScannerViewModel.swift */; };
+		C392356A26CBD00F003AD94D /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C392356926CBD00F003AD94D /* ScannerView.swift */; };
+		C392356C26CBD210003AD94D /* QrCodeCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C392356B26CBD210003AD94D /* QrCodeCameraDelegate.swift */; };
+		C392356E26CBD24A003AD94D /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C392356D26CBD24A003AD94D /* CameraPreview.swift */; };
+		C392357026CBD280003AD94D /* QrCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C392356F26CBD280003AD94D /* QrCodeScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		C392355926CBC81C003AD94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C392355C26CBC81C003AD94D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C392355E26CBC81C003AD94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C392356726CBCFE4003AD94D /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		C392356926CBD00F003AD94D /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		C392356B26CBD210003AD94D /* QrCodeCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeCameraDelegate.swift; sourceTree = "<group>"; };
+		C392356D26CBD24A003AD94D /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		C392356F26CBD280003AD94D /* QrCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				C392355526CBC81B003AD94D /* QRScanAppApp.swift */,
 				C392355726CBC81B003AD94D /* ContentView.swift */,
+				C392356926CBD00F003AD94D /* ScannerView.swift */,
+				C392356726CBCFE4003AD94D /* ScannerViewModel.swift */,
+				C392356B26CBD210003AD94D /* QrCodeCameraDelegate.swift */,
+				C392356D26CBD24A003AD94D /* CameraPreview.swift */,
+				C392356F26CBD280003AD94D /* QrCodeScannerView.swift */,
 				C392355926CBC81C003AD94D /* Assets.xcassets */,
 				C392355E26CBC81C003AD94D /* Info.plist */,
 				C392355B26CBC81C003AD94D /* Preview Content */,
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C392357026CBD280003AD94D /* QrCodeScannerView.swift in Sources */,
 				C392355826CBC81B003AD94D /* ContentView.swift in Sources */,
+				C392356A26CBD00F003AD94D /* ScannerView.swift in Sources */,
+				C392356826CBCFE4003AD94D /* ScannerViewModel.swift in Sources */,
+				C392356E26CBD24A003AD94D /* CameraPreview.swift in Sources */,
+				C392356C26CBD210003AD94D /* QrCodeCameraDelegate.swift in Sources */,
 				C392355626CBC81B003AD94D /* QRScanAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
