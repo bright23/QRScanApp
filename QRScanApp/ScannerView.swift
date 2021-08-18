@@ -12,10 +12,9 @@ struct ScannerView: View {
     
     var body: some View {
         ZStack {
-            Text("Scanner goes here...")
-            
-            
             VStack {
+                
+                SecondView(viewModel: viewModel)
                 VStack {
                     Text("Keep scanning for QR-codes")
                         .font(.subheadline)
